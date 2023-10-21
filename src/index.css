@@ -55,3 +55,7 @@ button:focus-visible {
   font-family: 'Quinshy';
   src: local('Quinshy'), url(./fonts/Quinshy/Quinshy.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/Montserrat/Montserrat-Regular.otf) format('truetype');
+}

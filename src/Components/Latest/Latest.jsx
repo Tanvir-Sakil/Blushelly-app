@@ -14,7 +14,9 @@ const Latest = (props) => {
         <div className='latest_post_img'>
             <img src = {img1}></img>
          <div className="latest_post_text">
+         <h5><span className='h6-style'>Hair</span></h5>
             <h3>Vivamus placerat<br></br> Luctus Neque nec <br></br>Faucibus</h3>
+            <small>By Tanvir- 18 October,2023</small>
         </div>
         </div>
         </div>
@@ -22,14 +24,18 @@ const Latest = (props) => {
         <div className='latest_post_img'>
             <img src = {img2}></img></div>
              <div className="latest_post_text">
+             <h5 ><span className='h6-style'>Makeup</span></h5>
              <h3>Vivamus placerat<br></br> Luctus Neque nec <br></br>Faucibus</h3>
+             <small>By Tanvir - 18 October,2023</small>
         </div>
         </div>
         <div className='latest_post'>
         <div className='latest_post_img'>
             <img src = {img3}></img>
          <div className="latest_post_text">
+         <h5 ><span className='h6-style'>Tips</span></h5>
          <h3>Vivamus placerat<br></br> Luctus Neque nec <br></br>Faucibus</h3>
+         <small>By Tanvir - 18 October,2023</small>
         </div>
         </div>
         </div>
@@ -39,7 +45,10 @@ const Latest = (props) => {
         <div className='new_post_img'>
             <img src = {img4}></img>
          <div className="new_post_text">
+         <h5><span className='h6-style'>Skin</span></h5>
          <h3>Sed dignissim quam nulla, at sodales elit <br></br>venenatis at. In in fringilla</h3>
+         <p>Donec eget leo laoreet, faucibus ante et, finibus orci. Nam pulvinar felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis…..</p>
+         <small>By Tanvir- 18 October,2023</small>
         </div>
         </div>
         </div></section>

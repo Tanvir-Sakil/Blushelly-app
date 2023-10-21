@@ -18,7 +18,7 @@ const Top_Header = (props) => {
                     <div class="menu-container">
                         <div className='top-item'>
                             <div class="top-header-text">
-                                <h3>Welcome there</h3>
+                                <p>Welcome there</p>
                             </div>
 
                             <div class="icon">
