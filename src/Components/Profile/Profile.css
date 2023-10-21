@@ -1,0 +1,50 @@
+.profile-section {
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+    margin-top:70px;
+    height: 120px;
+}
+
+.profile-section-image
+{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  display:inline-block;
+  vertical-align:middle;
+}
+.profile-section-image img
+{
+    padding: auto;
+    margin-top: -35px;
+    -webkit-filter: grayscale(100%);
+     filter: grayscale(100%);
+    width:100%;
+}
+.profile-section-content {
+    margin-left: 30px;
+}
+
+.profile-section-content h2 {
+    margin-bottom: 20px;
+}
+
+.profile-section-content>button {
+    margin-left: 200px;
+}
+
+.profile-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 20px;
+}
+.ad1
+{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    text-align: center;
+}

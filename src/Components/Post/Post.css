@@ -1,0 +1,27 @@
+.post {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.post-1 {
+    text-align: center;
+    position: relative;
+}
+
+.post_img img {
+    margin: 10px;
+    padding: 0px;
+    height: 150px;
+    width: 150px;
+    opacity: 0.5;
+}
+.post-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+}

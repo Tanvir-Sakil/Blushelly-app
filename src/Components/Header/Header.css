@@ -1,0 +1,66 @@
+.slider {
+    position: relative;
+    height: 400px;
+  }
+  
+  .image {
+    height: 400px;
+    width: 100%;
+    transform: scaleX(-1);
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.text-block {
+    color: white;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    border: 1px solid #FFF;
+    top:70px;
+    bottom: 100px;
+    right: 150px;
+    padding: 29px 36px;
+}
+.text
+{
+    margin-top: 8px;
+    line-height: 25px;
+}
+.skin
+{
+    margin: 0px;
+    padding: 0px;
+}
+.line1
+{
+    width: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+.line2
+{
+    width: 102px;
+    margin: 0px;
+    padding: 0px;
+}

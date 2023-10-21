@@ -1,0 +1,72 @@
+.insta
+{
+    display: flex;
+    justify-content: center;
+}
+.insta_post {
+    position: relative;
+    justify-content: center;
+}
+.insta_post_img img {
+    margin-right: 11px;
+    margin-left: 6px;
+    padding: 0px;
+    height:150px;
+    width: 200px;
+}
+.insta_post_text{
+    color: black;
+    position:absolute;
+    height: 80px;
+    width: 160px;
+    border: 1px solid black;
+    background-color: white;
+    top: 70%;
+    right: 30px;
+    padding: 19px 26px;
+}
+.heading
+{
+    display: flex;
+    flex-direction: row;
+}
+.heading::after
+{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid black;
+    margin-right: 200px;
+    margin-left: 3px;
+    margin-bottom: 8px;   
+}
+.heading::before
+{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid black;
+    margin-left: 200px;
+    margin-right: 3px;
+    margin-bottom: 8px;   
+}
+.follow_Us
+  {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .follow_Us_text
+  {
+       background-color: #050606;
+       color: white;
+       text-align: center;
+       height: 25px;
+       width: 68%;
+       padding: 3px;
+       border:1px solid white;
+       border-radius: 25px;
+  }
+
+
+
+
+

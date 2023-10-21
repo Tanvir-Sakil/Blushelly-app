@@ -1,0 +1,271 @@
+.subscription-section {
+    margin-top: 40px;
+    height: 230px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.subscription-section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.input-item {
+    border-radius: 8px;
+    background: #FFF;
+    width: 270px;
+    height: 34px;
+    flex-shrink: 0;
+    border: none;
+    margin-top: 4px;
+}
+.primary-btn {
+    margin-left: 5px;
+    border-radius: 8px;
+    background: black;
+    padding: 7px 20px;
+    color: white;
+    border: none;
+}
+
+.footer
+{
+    width:100%;
+    height:92vh;
+    background-image: url('images/background.png'),
+    linear-gradient(45deg,#111111,#080808);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+}
+.footer2
+{
+    display: flex;
+}
+.footer2 img
+{
+    height: 70px;
+    width: 70px;
+}
+.footer2-text
+{
+    height: 100px;
+    width: 250px;
+    margin-left: 10px;
+}
+.footer2-text p
+{
+    margin: 2px;
+}
+.footer-gallery img
+{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+}
+.footer-gallery
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.footer-content
+{
+    display: flex;
+    height: 60vh;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+.footer-logo
+{
+    width: 170px;
+}
+.footer-title
+{
+    margin: 20px;
+}
+.logo-box
+{
+    width: 25%;
+}
+.fa-brands,.fa-facebook-f
+{
+    margin:10px;
+    font-size: 20px;
+    color: white
+}
+.fa-solid
+{
+    margin-right: 8px;
+}
+.tags
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.tags_text
+  {
+       background-color: gray;
+       color: white;
+       margin: 2px;
+       text-align: center;
+       height: 27px;
+       width: 62px;
+       border:1px solid white;
+       border-radius: 25px;
+}
+.copy
+{
+    text-align: center;
+    padding: 15px;
+}
+.tag-style
+{
+    margin: 2px;
+}
+.category-text p
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.category-text
+{
+    display: flex;
+    justify-content: space-between;
+}
+.search {
+    width: 100%;
+    position: absolute;
+    display: flex;
+  }
+  
+  .searchTerm {
+    background-color: white;
+    width: 200px;
+    border: 3px solid white;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid white;
+    background: white;
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px 5px 5px ;
+    font-size: 20px;
+  }
+
+  .wrap{
+    width: 30%;
+    position: relative;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+  .menu-container {
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    list-style: none;
+    align-items: center;
+    height: 120px;
+    justify-content: space-around;
+
+}
+.top-item
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 155px;
+}
+.top-item-hr
+{
+    height: 26px;
+    margin-right: 4px;
+    border-left: 3px solid white;
+}
+.menu-container-item1
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo1 h3 {
+    display: inline;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    font-family: Quinshy;
+}
+.diagonal-line1
+{
+    display: flex;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 5px;
+    border-bottom: 7px solid white;
+    height: 5px;
+    width: 12px;
+    transform: rotate(131deg);
+}
+.fa-style1
+{
+    font-size: medium;
+    border: 1px solid lightyellow;
+    border-radius: 25%;
+    padding: 3px;
+}
+.menus1 {
+    display: flex;
+}
+.icon1
+{
+    display: flex;
+}
+.item1 {
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 18px;
+    list-style: none;
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.item1:hover {
+    color: blue;
+}
+.hr-style1
+{
+    width: 998px;
+    margin-left: 131px;
+
+}
+.top-item1
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 155px;
+}

@@ -1,0 +1,93 @@
+.Random
+{
+    margin-top:20px;
+}
+.Random_post {
+    display: flex;
+    direction: rtl;
+    position: relative;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.Random_post1 {
+    display: flex;
+    direction: ltr;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.Random_post_img img {
+    margin: 0px;
+    padding: 0px;
+    height: 320px;
+    width: 380px;
+}
+.Random_post_text {
+    color: white;
+    position:absolute;
+    height: 60px;
+    width: 140px;
+    border: 1px solid white;
+    background-color: red;
+    top: 85px;
+    right: 280px;
+    padding: 39px 56px;
+}
+.Random_post_text1 {
+    color: white;
+    position:absolute;
+    height: 60px;
+    width: 140px;
+    border: 1px solid white;
+    background-color: red;
+    top: 85px;
+    left: 280px;
+    padding: 39px 56px;
+}
+.heading
+{
+    display: flex;
+    flex-direction: row;
+}
+.heading::after
+{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid black;
+    margin-right: 200px;
+    margin-left: 3px;
+    margin-bottom: 8px;   
+}
+.heading::before
+{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid black;
+    margin-left: 200px;
+    margin-right: 3px;
+    margin-bottom: 8px;   
+}
+.line {
+    height: 2px;
+    width: 68.2%;
+    background: radial-gradient(4px 8px, #050606 90%,transparent 97%) 0 0/16px 100%;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .load_more
+  {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .load_more_text
+  {
+       background-color: #050606;
+       color: white;
+       text-align: center;
+       height: 25px;
+       width: 100px;
+       padding: 3px;
+       border:1px solid white;
+       border-radius: 25px;
+  }
